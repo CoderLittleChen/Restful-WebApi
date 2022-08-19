@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--使用PostMan请求API的时候  Body中的值-->
+<!--账号系统(ASP.NET Core Identity)+认证系统(OpenId)+授权系统(OAuth 2.0)是三个独立的东西-->
+<!--这三者可以构成一个完整的权限系统!!-->
+<CompanyAddDto xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/_01.Net_Core_Restful_API.Models">
+  <Name>FaceBook</Name>
+  <Introduction>a Good Company</Introduction>
+</CompanyAddDto>
