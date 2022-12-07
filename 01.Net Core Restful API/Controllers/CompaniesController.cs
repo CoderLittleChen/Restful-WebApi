@@ -20,6 +20,7 @@ namespace _01.Net_Core_Restful_API.Controllers
     public class CompaniesController : ControllerBase
     {
         private readonly ICompanyRepository _companyRepository;
+        //map对象之间多字段映射
         private readonly IMapper _mapper;
         private readonly IPropertyCheckerService _propertyCheckerService;
 
@@ -55,6 +56,7 @@ namespace _01.Net_Core_Restful_API.Controllers
             //var nextLink = companies.HasNext
             //    ? CreateCompaniesResourceUri(parameters, ResourceUriType.NextPage) : null;
 
+            //定义分页参数
             var paginationMetadata = new
             {
                 totalCount = companies.TotalCount,
